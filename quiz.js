@@ -37,7 +37,7 @@ let checkAnswer = function () {
 
     if (userAnswer) {
        
-        if ( correctAnswer === userAnswer) {
+        if ( userAnswer === correctAnswer) {
           Feedback.textContent = "Your Answer is Correct";
         } else  {
 
