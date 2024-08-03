@@ -37,7 +37,7 @@ let checkAnswer = function () {
 
     if (userAnswer) {
        
-        if ( correctAnswer === userAnswer.value) {
+        if ( correctAnswer === userAnswer) {
           Feedback.textContent = "Your Answer is Correct";
         } else  {
 
@@ -54,12 +54,11 @@ let checkAnswer = function () {
 
 let Btn = document.getElementById ('submit-answer');
     
-    Btn.addEventListener ('click', function (submit){
+    Btn.addEventListener ('click', function (checkAnswer){
 
-        console.log(submit.target)
-        console.log(submit);
+        console.log(checkAnswer.target)
+        console.log(checkAnswer);
 
         
     })
 
- 
