@@ -25,8 +25,6 @@
 
 // // }
 
-
-
 let checkAnswer = function () {
     
     correctAnswer = "4";
@@ -35,7 +33,7 @@ let checkAnswer = function () {
 
     const Feedback = document.getElementById('feedback');
 
-        if ( userAnswer === correctAnswer) {
+        if (userAnswer === correctAnswer) {
 
           Feedback.textContent = "Your Answer is Correct";
 
@@ -45,15 +43,11 @@ let checkAnswer = function () {
     
         }
 } 
-        
-    // else {
-
-    //         Feedback.textContent = " Please enter an answer";
-    //     }
+    
 
 let Btn = document.getElementById ('submit-answer');
     
-    Btn.addEventListener ('click', function (checkAnswer){
+    Btn.addEventListener ('click', function (checkAnswer) {
 
         console.log(checkAnswer.target)
         console.log(checkAnswer);
