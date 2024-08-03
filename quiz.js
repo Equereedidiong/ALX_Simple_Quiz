@@ -35,22 +35,21 @@ let checkAnswer = function () {
 
     const Feedback = document.getElementById('feedback');
 
-    if (userAnswer) {
-       
         if ( userAnswer === correctAnswer) {
+
           Feedback.textContent = "Your Answer is Correct";
+
         } else  {
 
           Feedback.textContent = "That's Incorrect, Try again!";
     
         }
-    } 
+} 
         
     // else {
 
     //         Feedback.textContent = " Please enter an answer";
     //     }
-}
 
 let Btn = document.getElementById ('submit-answer');
     
