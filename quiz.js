@@ -43,15 +43,16 @@ let checkAnswer = function () {
     
         }
 } 
-    
 
-let Btn = document.getElementById ('submit-answer');
+document.getElementById('submit-answer').addEventListener('click', checkAnswer);
     
-    Btn.addEventListener ('click', function (checkAnswer) {
+// let Btn = document.getElementById ('submit-answer');
+    
+//     Btn.addEventListener ('click', function (checkAnswer) {
 
-        console.log(checkAnswer.target)
-        console.log(checkAnswer);
+//         console.log(checkAnswer.target)
+//         console.log(checkAnswer);
 
         
-    })
+//     })
 
