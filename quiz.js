@@ -35,11 +35,11 @@ let checkAnswer = function () {
 
         if (userAnswer === correctAnswer) {
 
-          Feedback.textContent = "Your Answer is Correct";
+          Feedback.textContent = "Correct! Well done.";
 
         } else  {
 
-          Feedback.textContent = "That's Incorrect, Try again!";
+          Feedback.textContent = "That's incorrect. Try again!";
     
         }
 } 
